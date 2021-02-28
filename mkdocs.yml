@@ -1,1 +1,4 @@
-site_name: My Docs
+site_name: VŠB repozitář pro VaV / VSB R&D Repository
+
+theme:
+  name: material

@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Repozitář VŠB-TUO pro Vědu a výzkum
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Cílem dokumentu je popsat architekturu repozitáře vypplývající ze [Strategického záměru VŠB 2021-2027](https://vsb.cz/xxxxxxxxxxxxxxxxxx). 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
+## Kapitola první
 
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Kapitola druhá

@@ -5,12 +5,23 @@ theme:
   language: cs
 
 markdown_extensions:
+  - smarty
+  - admonition
   - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid-experimental
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid-experimental
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - mermaid2:
+      arguments:
+        securityLevel: 'loose'
+
+extra_javascript:
+    - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 # nav: # v obsahu zobrazí pouze uvedené; pokud neuvedeno, zobrazí vše
 #     - Home: index.md

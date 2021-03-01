@@ -1,8 +1,16 @@
 site_name: VŠB repozitář pro VaV / VSB R&D Repository
 
 theme:
-  name: material #readthedocs
+  name: material #mkdocs #readthedocs
   language: cs
+
+markdown_extensions:
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 # nav: # v obsahu zobrazí pouze uvedené; pokud neuvedeno, zobrazí vše
 #     - Home: index.md
